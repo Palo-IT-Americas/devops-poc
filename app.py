@@ -9,6 +9,3 @@ def index():
         titulo="Bienvenido",
         mensaje="Esta es la página principal con texto e imagen.",
     )
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
