@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ titulo }}</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: system-ui, sans-serif;
+      background: #f5f5f5;
+    }
+    main {
+      text-align: center;
+      padding: 1.5rem;
+    }
+    img {
+      max-width: min(90vw, 420px);
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    }
+    p {
+      margin-top: 1.25rem;
+      font-size: 1.125rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="{{ url_for('static', filename='img/paloit.png) }}" alt="Ilustración">
+    <p>{{ mensaje }}</p>
+  </main>
+</body>
+</html>

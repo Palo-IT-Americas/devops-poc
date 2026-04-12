@@ -1,0 +1,4 @@
+.venv
+.git
+devops-poc.PublishSettings
+__pycache__

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" rx="16" fill="url(#g)"/>
+  <text x="200" y="125" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="28" font-weight="600">Flask</text>
+  <text x="200" y="160" text-anchor="middle" fill="#e0e7ff" font-family="system-ui,sans-serif" font-size="14">Python 3</text>
+</svg>
