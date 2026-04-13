@@ -7,5 +7,5 @@ def index():
     return render_template(
         "index.html",
         titulo="Bienvenido",
-        mensaje="Esta es la página principal con texto e imagen.",
+        mensaje="Palo-IT DevOps Hive",
     )
